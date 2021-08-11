@@ -120,7 +120,6 @@ export default class ContainerComponent extends Component{
         group.groupFilters[0].filters.forEach(fil => {
             result = `Field: ${fil.field} | Condition: ${fil.condition} | Criteria: ${fil.criteria} ||`;
         })
-
         return result;
     }
 
